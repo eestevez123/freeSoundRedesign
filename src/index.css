@@ -11,3 +11,167 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+
+#picOfMe_Home{
+  width: 400px;
+  height: auto;
+}
+
+.heroTitle {
+  font-size: 4rem;
+}
+.heroSubTitle{
+  font-size: 2rem;
+}
+
+@media (max-width: 992px) {
+  #picOfMe_Home{
+    width: 50vw;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 13vw;
+  }
+  .heroSubTitle{
+    font-size: 8vw;
+  }
+
+  .bodyText {
+    font-size: 5vw;
+  }
+
+  .videoResponsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .videoResponsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
+
+#lis500_pic {
+  width: 80vw;
+}
+
+
+
+#thisSite_pic {
+  width: 80vw;
+}
+
+a {
+  color: #80f5c2;
+}
+
+#downloadResume {
+  margin-top: 15vh;
+}
+
+.logoLink{
+  width: 50vw;
+  transition: width 0.5s;
+}
+
+.logoLink:hover {
+  cursor: pointer;
+  width: 55vw;
+}
+
+#videos {
+  margin-left: 20vw;
+}
+
+#culversPic_ID{
+  width: 70vw;
+}
+
+#homepageBackground{
+  width: 100vw;
+  margin-top: 30px;
+}
+
+#freeSoundMainLogo{
+  height: 75px;
+}
+
+.normalLink {
+  padding-left: 2rem !important;
+  font-size: 1.5rem
+}
+
+#LoginButton {
+  position: absolute;
+  right: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  background: #FC384B;
+  border-radius: 20px;
+}
+
+#signUpButton {
+  position: absolute;
+  right: 10rem;
+  font-size: 1.5rem;
+}
+
+.searchBarHomePage{
+  width: 15rem;
+  margin-left: 35vw;
+  margin-top: 2rem;
+}
+
+.threeColumn{
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+mark.red {
+  color: #FC384B;
+  background: transparent;
+}
+
+.twoColumm {
+  font-size: 2rem;
+}
+
+.twoColummItem {
+  background:#e2e2e2;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+#soundOfTheDayPng{
+  width: 30rem;
+}
+
+#blogText {
+  font-size: 1rem;
+}
+
+#blogNotHeader {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
